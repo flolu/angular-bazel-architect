@@ -5,6 +5,7 @@ filegroup(
     name = "common_deps",
     srcs = [
         "angular.json",
+        "tailwind.config.js",
         "tsconfig.json",
     ],
     visibility = ["//:__subpackages__"],
@@ -22,6 +23,9 @@ APPLICATION_DEPS = [
     "@npm//zone.js",
     "@npm//tslib",
     "@npm//typescript",
+    "@npm//tailwindcss",
+    "@npm//autoprefixer",
+    "@npm//postcss",
     "//projects/frontend-lib",
 ]
 
